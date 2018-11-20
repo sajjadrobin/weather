@@ -1,0 +1,67 @@
+.logo {
+    font-size: 28px;
+    color: #fff;
+}
+.wraper {
+    background: #fff;
+    padding: 15px;
+}
+
+.ant-layout-content {
+	padding: 50px;
+}
+
+.wraper .ant-table-thead > tr > th {
+    background: #eef6fb;
+    font-size: 18px;
+}
+
+.ant-layout-footer {
+    background: #001529;
+    padding: 16px 0px;
+    color: #7d7d7d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.table-headline {}
+
+.table-headline h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table-headline p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-headline button {
+    margin-left: 16px;
+    background: #666666;
+    border: 1px solid #666666;
+}
+
+.date-info span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color:#999;
+}
+
+.cloud-icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 50px;
+}
+
+.date-info {
+    position: relative;
+}
+
+.date-info span:first-child {
+    color:#333;
+    font-size: 18px;
+}

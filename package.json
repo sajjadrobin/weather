@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "antd": "latest",
+    "axios": "0.18.0",
+    "core-decorators": "0.20.0",
+    "mobx": "5.6.0",
+    "mobx-react": "5.3.6",
+    "moment": "2.22.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "4.3.1"
+  },
+  "name": "weather",
+  "description": "weather app",
+  "version": "0.0.0",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://api.darksky.net"
+}
