@@ -29,7 +29,7 @@ const columns = [{
   title: 'HIGH/LOW',
   key: 'highlow',
   render: abc => (
-    <div>{abc.temperatureHigh} / {abc.temperatureLow}</div>
+    <div>{abc.temperatureHigh}c / {abc.temperatureLow}c</div>
   )
 }];
 
@@ -52,9 +52,8 @@ class Home extends Component {
 
         <div className="wraper">
           <div className="table-headline">
-            <h2>Stockholm, Sweden 5 Day Weather</h2>
-            <p>2:17 pm CET</p>
-            <Button type="primary" icon="printer">Print</Button>
+            <h2>Daily Weather</h2>
+            <p>{moment().format("[Today] HH:mm")}</p>            
           </div>
           <Table dataSource={dataSource} columns={columns} rowKey={"time"} />
 

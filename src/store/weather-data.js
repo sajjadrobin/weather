@@ -9,7 +9,7 @@ class WeatherData {
     }
 
     async getWeatherData() {
-      const {data} = await axios.get("/forecast/adcfa1d88f5f100567176305b1fa0758/37.8267,-122.4233");
+      const {data} = await axios.get("/forecast/adcfa1d88f5f100567176305b1fa0758/59.3293,18.0686?units=si");
 
       this.setWeatherData(data);
   }
